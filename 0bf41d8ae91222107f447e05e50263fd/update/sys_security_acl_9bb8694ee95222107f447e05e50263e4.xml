@@ -4,24 +4,24 @@
         <admin_overrides>true</admin_overrides>
         <advanced>true</advanced>
         <condition/>
-        <description>Allow read for records in x_cdltd_loaner_req_loaner_request, for users with role x_cdltd_loaner_req.admin.</description>
+        <description/>
         <local_or_existing>Local</local_or_existing>
         <name>x_cdltd_loaner_req_loaner_request</name>
         <operation display_value="read">read</operation>
-        <script/>
+        <script><![CDATA[current.isNewRecord();]]></script>
         <security_attribute/>
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-06-24 04:31:38</sys_created_on>
-        <sys_id>0145550ee91222107f447e05e5026367</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_created_on>2025-06-24 05:58:00</sys_created_on>
+        <sys_id>9bb8694ee95222107f447e05e50263e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>x_cdltd_loaner_req_loaner_request</sys_name>
         <sys_package display_value="Loaner Request" source="x_cdltd_loaner_req">0bf41d8ae91222107f447e05e50263fd</sys_package>
         <sys_policy/>
         <sys_scope display_value="Loaner Request">0bf41d8ae91222107f447e05e50263fd</sys_scope>
-        <sys_update_name>sys_security_acl_0145550ee91222107f447e05e5026367</sys_update_name>
+        <sys_update_name>sys_security_acl_9bb8694ee95222107f447e05e50263e4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-06-24 05:54:16</sys_updated_on>
+        <sys_updated_on>2025-06-24 05:58:00</sys_updated_on>
         <type display_value="record">record</type>
     </sys_security_acl>
 </record_update>
